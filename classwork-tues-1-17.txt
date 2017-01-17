@@ -1,1 +1,4 @@
 in class work goes here
+badly named file.txt
+classwork-tues-1-17.txt
+README.txt
