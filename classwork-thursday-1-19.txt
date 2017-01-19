@@ -1,2 +1,4 @@
 Madison Downing
 classwork for Thursday 1-19
+There are 9515 lines in the file Marra2014_data.fasta
+removeme.txt .gitignore
