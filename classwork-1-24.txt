@@ -1,3 +1,574 @@
 ../../../Desktop/eeb-177/class-assignments/classwork-tues-1-17.txt
 ../../../Desktop/eeb-177/class-assignments/classwork-thursday-1-19.txt
 ../../../Desktop/eeb-177/class-assignments/classwork-1-24.txt
+    1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  pwd
+   70  git config --global.name "Madison Downing"
+   71  git config --global user.name "Madison2296"
+   72  git config --global user.email "madison2296@gmail.com"
+   73  cd
+   74  mkdir
+   75  mkdir "eeb-177"
+   76  cd desktop
+   77  cd Desktop
+   78  mkdir eb-177
+   79  cd eeb-177
+   80  mkdir eeb-177
+   81  cd eeb-177
+   82  mkdir lab-work
+   83  cd lab-work
+   84  pwd
+   85  git init
+   86  cd eeb-177
+   87  cd homework
+   88  cd eeb-177
+   89  cd homework
+   90  mkdir homework
+   91  cd homework
+   92  touch README.txt
+   93  cd desktop
+   94  cd Desktop
+   95  cd eeb-177
+   96  mkdir homework
+   97  cd homework
+   98  touch README.txt
+   99  gedit README.txt
+  100  git add README.txt
+  101  cd Desktop
+  102  git init
+  103  cd lab-work
+  104  cd Desktop
+  105  cd lab-work
+  106  cd eeb-177
+  107  cd lab-work
+  108  git init
+  109  git add README.txt
+  110  touch README.txt
+  111  git add README.txt
+  112  git commit-m "initial commit: adding README file"
+  113  git commit -m "initial commit: adding README file"
+  114  git log
+  115  git remote add origin https://github.com/Madison2296/EEB177W17.git
+  116  git push -u origin master
+  117  push -u origin master
+  118  git push -u origin master
+  119  git add README.txt
+  120  /users/Madison Downing
+  121  /users/madisondowning
+  122  home/eeb177-student
+  123  cd ~
+  124  git clone https://github.com/StefanoAllesina/csb.git
+  125  sudo apt-get install xserver-xorg-core
+  126  git commit -a
+  127  git init
+  128  cd eeb-177
+  129  cd Desktop
+  130  cd eeb-177
+  131  cd lab-work
+  132  git commit -a
+  133  cd Desktop
+  134  cd eeb-177
+  135  cd lab-work
+  136  git add README.txt
+  137  git commit -m "revised commit: revising README file"
+  138  git push https://github.com/Madison2296/EEB177W17
+  139  cd Desktop
+  140  cd EEB-177
+  141  cd eeb-177
+  142  cd lab-work
+  143  mkdir exercise-1
+  144  git add exercise-1
+  145  cd exercise-1
+  146  touch README.txt
+  147  sudo gedit README.txt
+  148  cd lab-work
+  149  cd ../
+  150  git add exercise/README.txt
+  151  git add exercise-1/README.txt
+  152  git status
+  153  git commit -m "primary exercise-1 add"
+  154  git status
+  155  git push
+  156  cd exercise-1
+  157  touch one-liner.txt
+  158  sudo gedit one-liner.txt
+  159  ../
+  160  cd ../
+  161  git add exercise-1/one-liner.txt
+  162  git commit -m "primary add one-liner"
+  163  git push
+  164  cd exercise-1/README.txt
+  165  exercise-1
+  166  cd exercise-1
+  167  sudo gedit README.txt
+  168  cd ../
+  169  git add exercise-1/README.txt
+  170  git commit "README fun fact add"
+  171  git commit -m "README fun fact add"
+  172  git push
+  173  git log
+  174  cd Desktop
+  175  cd eeb-177
+  176  cd lab-work
+  177  cd exercise-1
+  178  touch commithistory.png
+  179  git add exercise-1/commithistory.png
+  180  git add commithistory.png
+  181  cd ../
+  182  git add exercise-1/commithistory.png
+  183  git commit "add commit history photo"
+  184  git commit -m "add commit history photo"
+  185  git push
+  186  it branch
+  187  git branch
+  188  git checkout -b dummy-branch
+  189  git log --decorate
+  190  pwd
+  191  cd Desktop
+  192  cd eeb-177
+  193  cd lab-work
+  194  cd exercise-1
+  195  git branch
+  196  pwd
+  197  touch dummy-file.txt
+  198  cd ../
+  199  cd lab-work
+  200  git add exercise-1/dummy-file.txt
+  201  git commit "dummy-file"
+  202  git commit -m "dummy-file"
+  203  git push
+  204  cd ../
+  205  mkdir ls
+  206  ls
+  207  mkdir class-assignments
+  208  git add class-assignments
+  209  git commit -m "primary class-assignments add"
+  210  git branch
+  211  ls -a
+  212  git branch
+  213  cd lab-work
+  214  git branch
+  215  cd ../
+  216  cd class-assignments
+  217  git init
+  218  git remote add origin https://github.com/Madison2296/EEB177CLASS-ASSIGNMENTS.git
+  219  git push -u origin master
+  220  git config --global user.name "Madison2296"
+  221  git config --global user.email "madison2296@gmail.com"
+  222  git push -u origin master
+  223  git remote add origin https://github.com/Madison2296/EEB177CLASS-ASSIGNMENTS.git
+  224  touch README.txt
+  225  git push -u origin master
+  226  git add README.txt
+  227  git commit -m "adding readme file"
+  228  git push -u origin master
+  229  mkdir thurs-1-12-2017
+  230  rm thurs-1-12-2017
+  231  echo $SHELL
+  232  echo $HOME
+  233  cd /home/eeb177-student
+  234  cd Desktop
+  235  cd eeb-177
+  236  cd lab-work
+  237  gi branch
+  238  git branch
+  239  cd exercise-1
+  240  cd ../
+  241  git add exercise-1/dummy-file.txt
+  242  git commit -m "adding dummy-file"
+  243  cd exercise-1
+  244  touch dummy-file.txt
+  245  cd ../
+  246  git add exercise-1/dummy-file.txt
+  247  git commit -m "add dummy file"
+  248  git push
+  249  pit push --set-upstream origin dummy-branch
+  250  git push --set-upstream origin dummy-branch
+  251  git log --decorate
+  252  cd Desktop/eeb-177/lab-work/exercise-1
+  253  ls
+  254  git checkout master
+  255  ls
+  256  git merge dummy-branch
+  257  ls
+  258  git rm dummy-file.txt
+  259  ls
+  260  git commit -m "remove dummy file"
+  261  git push
+  262  git log
+  263  cd Desktop/eeb-177/lab-work/exercise-1
+  264  git revert 0570813c4c020fe6ea06a9c088cf36fb9f0a03a3
+  265  cd Desktop/eeb-177/lab-work
+  266  git revert 0570813c4c020fe6ea06a9c088cf36fb9f0a03a3
+  267  cd exercise-1
+  268  git revert 0570813c4c020fe6ea06a9c088cf36fb9f0a03a3
+  269  cd ../
+  270  mkdir 01-my-favorite-animals
+  271  cd 01-my-favorite-animals
+  272  gitinit
+  273  git init
+  274  git config --global user.name "Madison2296"
+  275  git config --global user.email "madison2296@gmail.com"
+  276  touch README.txt
+  277  touch links.txt
+  278  git remote add origin https://github.com/Madison2296/favoriteanimals.git
+  279  git push -u origin master
+  280  git add README.txt 
+  281  git commit git -m "first commit"
+  282  git commit -m "first commit"
+  283  git push -u origin master
+  284  git add cat.jpg
+  285  git commit -m "cat picture"
+  286  git push
+  287  cd Desktop/eeb-177/01-my-favorite-animals
+  288  git push
+  289  git add dog.jpeg
+  290  git commit -m "dog picture"
+  291  git push
+  292  git add fox.jpg
+  293  git commit -m "fox picture"
+  294  git push
+  295  git add koala.jpeg
+  296  git commit -m "koala picture"
+  297  git push
+  298  git add otter.jpg
+  299  git commit -m "otter picture"
+  300  git push
+  301  git add links.txt
+  302  git commit -m "links"
+  303  git push
+  304  git commit "links update"
+  305  git commit -m "links update"
+  306  git add links.txt
+  307  git commit -m "links update"
+  308  git push
+  309  cd ../
+  310  git clone https://github.com/gauravsk/my-fav-animals.git
+  311  mkdir homework
+  312  cd homework
+  313  git init
+  314  touch README.txt
+  315  sudo getit README.txt
+  316  sudo gedit README.txt
+  317  cd ../
+  318  whoami
+  319  cd Desktop/eeb-177/homework
+  320  git init
+  321  git add README.txt
+  322  git commmit -m "first commit"
+  323  git commit -m "first commit"
+  324  git remote add origin https://github.com/Madison2296/homework.git
+  325  git push -u origin master
+  326  touch hw-1-12-2017.txt
+  327  sudo gedit hw-1-12-2017
+  328  cd Desktop/eeb-177/homework
+  329  git add hw-1-12-2017
+  330  git commit -m "Absolute vs Relative Paths"
+  331  git push
+  332  git add hw-1-12-2017
+  333  git commit -m "Relative Path Resolution"
+  334  git push
+  335  git add hw-1-12-2017
+  336  git commit -m "ls Reading Comprehension"
+  337  git push
+  338  git add hw-1-12-2017
+  339  git commit -m "Exploring More ls Arguments"
+  340  git add hw-1-12-2017
+  341  git commit -m "Exploring More ls Arguments"
+  342  git push
+  343  git add hw-1-12-2017
+  344  git commit -m "Listing Recursively and by Time"
+  345  git push
+  346  gedit
+  347  cd Desktop/eeb-177/classwork
+  348  cd Desktop/eeb-177/class-assignments
+  349  ls
+  350  cd ../
+  351  cd homework
+  352  ls
+  353  cd ../
+  354  cd class-assignments
+  355  git add classwork-tues-1-17.txt
+  356  git commit -m "adding tues 1-17 claswork"
+  357  git push
+  358  git status
+  359  cd ~
+  360  cd Desktop/eeb-177/CSB
+  361  cd Desktop/eeb-177/csb/
+  362  cd unix/installation/
+  363  cd ~
+  364  cd Desktop/eeb-177/class-assignments
+  365  touch badly named file.txt
+  366  cp filename directory
+  367  cp badly named file.txt directory
+  368  cp badly named file.txt home
+  369  cp badly named file.txt ~
+  370  rm badly
+  371  rm file.txt
+  372  rm named
+  373  ../
+  374  cd ../
+  375  cd ~
+  376  rm badly named file.txt
+  377  cd Desktop/eeb-177/class-assignments
+  378  touch "badly named file.txt"
+  379  cp badly\ named\ file.txt ~
+  380  ls ~
+  381  ls -l
+  382  ls -la
+  383  touch .config
+  384  ls
+  385  ls -a
+  386  man
+  387  man cd
+  388  cd ~
+  389  man cd
+  390  man bash
+  391  history
+  392  history > temp.txt
+  393  rm temp.txt
+  394  cd Desktop/eeb-177/class-assignments
+  395  ls >> classwork-tues-1-17.txt
+  396  git add classwork-tues-1-12.txt
+  397  git add classwork-tues-1-17.txt
+  398  git commit -m "adding directory contents"
+  399  git push
+  400  sudo apt-get update
+  401  sudo apt-get insatll gnome-screenshot
+  402  sudo apt-get install gnome-screenshot
+  403  sudo reboot
+  404  cd Desktop/eeb-177/lab-work
+  405  mkdir exercise-2
+  406  cd exercise-2
+  407  touch README.txt
+  408  sudo gedit README.txt
+  409  cd Desktop/eeb-177/lab-work
+  410  git add exercise-2
+  411  git commit -m "adding exercise-2 folder"
+  412  git push
+  413  git add exercise-2
+  414  git commit -m "screenshots"
+  415  git push
+  416  cd ../
+  417  01-my-fav-animals
+  418  cd 01-my-fav-animals
+  419  cd 01-my-favorite-animals
+  420  git add clone.png
+  421  git commit -m "add clone image"
+  422  git push
+  423  cd ../
+  424  cd lab-work
+  425  cd Desktop/eeb-177/class-assignments
+  426  touch classwoek-thursday-1-19.txt
+  427  sudo gedit classwork-thursday-1-19.txt
+  428  git add classwork-thursday-1-19.txt
+  429  git commit -m "adding today's classwork"
+  430  git push
+  431  cd Desktop/eeb-177/class-assignments
+  432  git push
+  433  ../
+  434  cd ../
+  435  cd csb
+  436  cd unix
+  437  cd data
+  438  sudo gedit Marra2014_data.fast
+  439  sudo gedit Marra2014_data.fasta
+  440  wc -l Marra2014_data.fasta
+  441  touch toremove.txt ../sandbox/
+  442  ls ../sandbox/
+  443  cd ../
+  444  cd sandbox
+  445  cd ../
+  446  cd unix/data
+  447  touch toremove.txt ~/Desktop/eeb-177/csb/unix/sandbox
+  448  touch ~/Desktop/eeb-177/csb/unix/sandbox/removeme.txt
+  449  ls ~/Desktop/eeb-177/csb/unix/sandbox
+  450  cd ../
+  451  cd sandbox
+  452  ls -a
+  453  rm removeme.txt
+  454  cd ../data
+  455  ls *.txt
+  456  wc *.txt
+  457  wc -l *.txt
+  458  wc -l *.fasta
+  459  cat Buzzard2015_data.csv
+  460  cat Buzzard2015_data.csv Marra2014_data.fasta
+  461  man cat
+  462  echo "hello my name is Madison"
+  463  echo "hello my name is Madison" >> name.txt
+  464  rm name.txt
+  465  head -n 1 Pacific2013 data.csv
+  466  cd ../
+  467  cd class-work
+  468  cd classwork
+  469  class-assignments
+  470  cd class-assignments
+  471  git add classwork-thursday-1-19.txt
+  472  git commit -m "final classwork add"
+  473  git add classwork-thursday-1-19.txt
+  474  git commit -m "final classwork add"
+  475  git push
+  476  cd ../
+  477  cd homework
+  478  touch week-2-hw-eeb177.txt
+  479  sudo gedit week-2-hw-eeb177.txt
+  480  man ls
+  481  ls -s
+  482  ls -s ~Desktop/eep-177/csb/unix/data/Marra2014_data.fasta
+  483  ls -s ~Desktop/eep-177/csb/unix/data/
+  484  ls -s ~/Desktop/eep-177/csb/unix/data/
+  485  ls -s ~/Desktop/eep-177/csb/unix/data
+  486  ls -l 
+  487  ls -l /data
+  488  cd ../
+  489  cd data
+  490  ls -l
+  491  ls -s Marra2014_data.txt
+  492  ls -s Marra2014_data.fasta
+  493  cd ../sandbox
+  494  cp ~/Desktop/eeb-177/csb/unix/data/Marra2014_data.fasta ~/Desktop/eeb-177/csb/unix/sandbox/my_file.fasta
+  495  grep -c isogroup00036 my_file.fasta
+  496  uniq
+  497  cd Desktop/eeb-177/csb/unix/sandbox
+  498  uniq my_file.fasta
+  499  grep isogroup my_file.fasta | uniq
+  500  grep isogroup my_file.fasta | uniq | wc -l
+  501  grep isogroup my_file.fasta | uniq | sort -r -n -k 3
+  502  grep isogroup my_file.fasta | uniq | sort -r -n -k 5
+  503  grep numreads=  my_file.fasta | uniq | sort -n
+  504  grep numreads= my_file.fasta | uniq | sort -n
+  505  mkdir temp
+  506  cd ../data
+  507  cd Saavedra2013
+  508  cd ../../../../class-assignments
+  509  touch classwork-1-24.txt
+  510  cd ../csb/unix/sandbox
+  511  wget http://tinyurl.com/cep-tata-Ocep-taxa.txt
+  512  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  513  man grep
+  514  grep Orchidacea cep-taxa.txt
+  515  grep -w Orchidacea cep-taxa.txt
+  516  man grep
+  517  grep -c Orchidacea cep-taxa.txt
+  518  grep falcon cep-taxa.txt
+  519  grep Falcon cep-taxa.txt
+  520  grep -i falcon cep-taxa.txt
+  521  grep Ara cep-taxa.txt 
+  522  grep -i -w ara cep-taxa.txt 
+  523  grep -B 3 Cebus cep-taxa.txt
+  524  grep -n -i -w iguana cep-taxa.txt
+  525  grep -v -c -n -i -w ara cep-taxa.txt 
+  526  grep -v -n -i -w ara ce`
+  527  q
+  528  grep -v -n -i -w ara cep-taxa.txt 
+  529  find ../data/ | wc -l
+  530  find ../data/ -name "n30.txt"
+  531  cd ../data/
+  532  ls
+  533  find class-assignments
+  534  find classwork
+  535  man find
+  536  find ../../../../../
+  537  cd Desktop/eeb-177/csb/unix/sandbox
+  538  find ../../../../../Desktop/ -iname "*classwork*" 
+  539  find ../../../../../Desktop -iname "*classwork*"
+  540  find ../../../ -iname "*classwork*"
+  541  find ../../../../Desktop -iname "*classwork*"
+  542  find ../../../Desktop -iname "*classwork*"
+  543  find ../../../Desktop -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-1-24.txt
+  544  cd ../../class-assignments
+  545  cd ../../../class-assignments
+  546  git add classwork-1-24.txt
+  547  git commit -m "adding 1-24 classwork"
+  548  git push
+  549  cd ../csb/unix/data
+  550  cd sandbox
+  551  cd../sandbox
+  552  cd ../sandbox
+  553  touch permissions.txt
+  554  ls -l
+  555  chmod u=rwx permissions.txt
+  556  ls -l
+  557  chmod g+w,u+x permissions.txt
+  558  ls -l
+  559  history
+  560  history -n 93 >> ~/Desktop/eeb-177/class-assignments/classwork-1-24.txt
+  561  cd ../../../calss-assignments
+  562  cd ../../class-assignments
+  563  cd ../../../../class-assignments
+  564  cd ../
+  565  cd class-assignments
+  566  sudo gedit classwork-1-24.txt
+  567  history -n 105 >> ~/Desktop/eeb-177/class-assignments/classwork-1-24.txt
+  568  history -n 105
+  569  man history
+  570  history -n
+  571  history >>classwork-1-24.txt
