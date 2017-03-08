@@ -1,0 +1,23 @@
+---
+title: "classwork-3-7"
+author: "Madison Downing"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+data(graptPBDB)
+head(graptOccPBDB)
+occSpecies<-taxonSortPBDBocc(graptOccPBDB, rank="species")
+head(occSpecies)
+occGenera<-taxonSortPBDBocc(graptOccPBDB, rank="genus")
+head(occGenera)
+occFamily<-taxonSortPBDBocc(graptOccPBDB, rank="family")
+head(occFamily)
+plotOccData(occSpecies,groupLabel = "Species")
+graptTimeSpecies<-occData2timeList(occList = occSpecies)
+head(graptTimeSpecies)
+taxicDivDisc(graptTimeSpecies)
+```
